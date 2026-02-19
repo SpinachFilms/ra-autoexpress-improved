@@ -29,8 +29,8 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-white">
-              <Image src="/RALOGO.png" alt="RA Auto Express" width={150} height={50} />
+            <div className="relative h-12 w-36">
+              <Image src="/RALOGO1.png" alt="RA Auto Express" fill style={{ objectFit: 'contain', objectPosition: 'left center' }} />
             </div>
           </Link>
 
