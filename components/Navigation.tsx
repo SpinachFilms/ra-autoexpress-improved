@@ -30,7 +30,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="text-2xl font-bold text-white">
-              RA <span className="text-red-500">Auto Express</span>
+              <Image src="/RALOGO.png" alt="RA Auto Express" width={150} height={50} />
             </div>
           </Link>
 
